@@ -1,0 +1,44 @@
+h1{
+    background: cornsilk;
+    font-style: bold;
+    text-align: center;
+}
+
+
+nav{
+    width:75px;
+    height: 75px;
+    background: cornsilk;
+    float:left;
+    padding: 13px;
+    margin-right: 3px;
+}
+
+#container{
+    display: table-row-group;
+}
+div span {
+    display: table-cell;
+    margin:5px 10px 10px 5px;
+    padding: 5px;
+    color:red;
+    border: 1px solid black;
+}
+
+#par{
+    display: table-cell;
+    background: #D3D3D3;
+   
+}
+#stuff{
+    
+    padding-top: 55px;
+   vertical-align: text-bottom;
+}
+
+footer{
+    height: 25px;
+    background-color: cornsilk;
+    text-align: center;
+}
+
