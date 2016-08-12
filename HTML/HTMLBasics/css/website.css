@@ -26,15 +26,12 @@ div span {
 }
 
 #par{
+    
     display: table-cell;
     background: #D3D3D3;
    
 }
-#stuff{
-    
-    padding-top: 55px;
-   vertical-align: text-bottom;
-}
+
 
 footer{
     height: 25px;
