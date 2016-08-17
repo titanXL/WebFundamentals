@@ -1,0 +1,71 @@
+#wrapper{
+    width: 860px;
+    height: 430px;
+    border:1px solid black;
+    background-color: green;
+}
+#stats{
+    
+    
+    margin: 4px 4px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 852px;
+    height: 422px;
+    border:1px solid black;
+}
+
+#stats tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+#stats tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+td{
+    border:1px solid black;
+}
+
+.flag{
+    width: 16px;
+    height: 11px;
+}
+.flag flag-br{
+    color:red;
+}
+#firstrow{
+    background-color: yellowgreen;
+}
+#secondrow{
+    background-color: ghostwhite;
+}
+
+#firstrow td{
+    font-weight: bold;
+    
+}
+
+#country1{
+    text-align: right;
+    padding: 3px 1px 3px 6px;
+}
+#result{
+    text-align: center;
+    padding: 2px 2px;
+}
+#country2{
+    text-align: left;
+    padding: 3px 6px 3px 1px;
+}
+#group{
+    text-align: center;
+    padding: 2px 2px;
+    
+}
+#placeabet{
+    text-align: center;
+    padding: 2px 2px;
+    
+}
