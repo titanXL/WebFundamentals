@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Flight Order</h1>
+        </header>
+        <div id="from">
+            <p>From</p>
+            <select name="enter a city">
+               <option value="Value 1">Sofia</option>
+               <option value="Value 2">Bourgas</option>
+               <option value="Value 3">Varna</option>
+               <option value="Value 4">Dobrich</option>
+            </select>
+            <p>Departure Date</p>
+            <input type="date">
+            <p>Return Date</p>
+            <input type="date">
+            <p>12+</p>
+            <input type="number" min="12" max="31">
+            <p>2-12</p>
+            <input type="number" min="2" max="12">
+            <p>0-2</p>
+            <input type="number" min="0" max="2">
+        </div>
+        <div id="to">
+            <select name="enter a city">
+               <option value="Value 1">Sofia</option>
+               <option value="Value 2">Bourgas</option>
+               <option value="Value 3">Varna</option>
+               <option value="Value 4">Dobrich</option>
+            </select>
+            <label><input type="checkbox"> Prefer directs</label>
+            <p>Time Interval</p>
+            <input type="time">
+            <input type="time">
+            <p>Time Interval</p>
+            <input type="time">
+            <input type="time">
+            <p>Choose class</p>
+            <select >
+                <option value="Economy">Economy</option>
+                <option value="Business">Business</option>
+                <option value="FirstClass">First Class</option>
+            </select>
+            <input type="submit" name="Search">
+        </div>
+    </div>
+</body>
+
+</html>

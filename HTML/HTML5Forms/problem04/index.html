@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Facebook</h1>
+            <h2>Registration</h2>
+            <h3>It is safe and will always be</h3>
+        </header>
+        <fieldset>
+            <legend>None-important information</legend>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Phone Number">
+            <input type="password" placeholder="Password">
+            <input type="url" placeholder="Website">
+            <label for="birthday">Birthday</label>
+            <input type="datetime-local" id="birthday">
+            <label> <input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+        <input type="reset" value="Reset">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Important information *required</legend>
+            <select>
+                <option value="" disabled selected> Country</option>
+                <option value="Value 1">Bulgaria</option>
+                <option value="Value 2">England</option>
+                <option value="Value 3">Romania</option>
+            </select>
+            <input type="text" placeholder="Village">
+            <input type="text" placeholder="District">
+            <input type="text" placeholder="Street">
+            <input type="number" placeholder="Nr">
+            <input type="number" placeholder="Floor">
+            <input type="number" placeholder="Ap. Nr">
+            <label for="colorPanel">DoorColor</label>
+            <input type="color" id="colorPanel">
+            <input type="number" placeholder="WaterMeter Nr">
+            <select>
+                <option value="" disabled selected>Aunt Pantie`s Size</option>
+                <option value="Value 1">XL</option>
+                <option value="Value 2">XXL</option>
+                <option value="Value 3">XXXL</option>
+            </select>
+            <label for="textBox">More personal information</label>
+            <textarea placeholder="Give us more information" id="textBox" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Register">
+    </div>
+</body>
+</html>

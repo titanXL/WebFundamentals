@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Enter the system</h1>
+            <p>It is necessary to login into Your account in order to sign in for a course</p>
+        </header>
+        <div id="register">
+            <h2>Are you new? <a href="#">Register</a></h2>
+            <input type="text" placeholder="User name" name="username" pattern="[a-zA-Z]{3}">
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm password">
+            <input type="submit" value="Register">
+        </div>
+        <div id="login">
+            <h2>Already a student? <a href="#">Login</a></h2>
+            <input type="text" placeholder="User name" name="loginUserName" pattern="[a-zA-Z]{3}">
+            <input type="password" placeholder="password">
+            <input type="checkbox" value="yes">
+            <input type="submit" value="Login">
+            <span><a href="#">Forgot Password</a></span>
+        </div>
+    </div>
+</body>
+</html>
